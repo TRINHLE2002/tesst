@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bootstrap Simple Data Table</title>
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="/Hẹn lịch bác sĩ/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="table-responsive">
+            <div class="table-wrapper">
+                <div class="table-title">
+                    <div class="row">
+                        <div class="col-sm-8">
+                            <h2><b>Quản lí bệnh nhân khám bệnh</b></h2>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="calendar">
+                            <input type="date" class="form-control" placeholder="Chọn ngày khám">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <table class="table table-striped table-hover table-bordered">
+                    <thead>
+                        <tr>
+                            <th>STT</th>
+                            <th>Thời gian <i class="fa fa-sort"></i></th>
+                            <th>Họ và tên</th>
+                            <th>Giới tính</th>
+                            <th colspan="2">Action</th>
+                        </tr> 
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>8:00 - 9:00</td>
+                            <td>Nguyễn Văn A</td>
+                            <td>Nam</td>
+                            <td colspan="2">
+                                <button type="button" class="btn btn-light">Xác nhận</button>
+                                <button type="button" class="btn btn-light">Gửi hóa đơn</button>
+                            </td>
+                            
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>8:00 - 9:00</td>
+                            <td>Nguyễn Văn A</td>
+                            <td>Nam</td>
+                            <td colspan="2">
+                                <button type="button" class="btn btn-light">Xác nhận</button>
+                                <button type="button" class="btn btn-light">Gửi hóa đơn</button>
+                            </td>
+                            
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>        
+    </div>   
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>   
+<script src="/Hẹn lịch bác sĩ/script.js"></script>
+</body>
+</html>

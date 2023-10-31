@@ -1,0 +1,27 @@
+.taskbar{
+    margin-left: 15px;
+}
+.sc-1r3h6c7-0[data-form-mode="view"] {
+    margin-bottom: 63px;
+    padding: 16px;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 10px 16px, rgba(0, 0, 0, 0.04) 0px 2px 8px, rgba(0, 0, 0, 0.04) 0px 0px 1px;
+    border-radius: 6px;
+}
+.bOQKOm {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.bOQKOm.flex-col--stretch-items > * {
+    width: 100%;
+}
+.gBWmiM + .form-input-view {
+    border-top: 1px solid rgb(228, 232, 236);
+    border-right-color: rgb(228, 232, 236);
+    border-bottom-color: rgb(228, 232, 236);
+    border-left-color: rgb(228, 232, 236);
+    padding-top: 16px;
+}
